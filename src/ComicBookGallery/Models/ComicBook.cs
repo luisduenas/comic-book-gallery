@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace ComicBookGallery.Models
+﻿namespace ComicBookGallery.Models
 {
     public class ComicBook
     {
@@ -11,7 +6,7 @@ namespace ComicBookGallery.Models
         public string SeriesTitle { get; set; }
         public int IssueNumber { get; set; }
         public string DescriptionHtml { get; set; }
-        public Artists [] Artists { get; set; }
+        public Artist [] Artists { get; set; }
         public bool Favorite { get; set; }
 
         public string DisplayText
