@@ -24,7 +24,7 @@ namespace ComicBookGallery.Controllers
                     new Artists(){Name = "Edgar Delgado", Role="Colors"},
                     new Artists(){Name = "Chris Eliopoulos", Role="Letters"},
                 }
-            };
+            }; 
 
             return View(comicBook);
         }
